@@ -1,0 +1,52 @@
+.loginButton{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: rgb(0,160,270);
+  color: white;
+  font-size: 20px;
+  line-height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+}
+.button{
+  display: none;
+}
+.fatherbox{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius:50px ;
+  width: 300px;
+  height: 50px;
+  top: 100px;
+  background-color: rgb(242,242,242);
+}
+.fatherbox image{
+  border-radius: 50%;
+}
+.fatherbox .name {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 62px;
+  top: 5px;
+  text-align: center;
+  line-height: 40px;
+
+}
+.finally{
+  position: fixed;
+  bottom: 5px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.finally button{
+  height: 39px;
+  margin-top: 9px;
+  font-size: 16px;
+}

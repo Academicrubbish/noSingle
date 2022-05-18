@@ -1,0 +1,50 @@
+.apploge{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  top: 40px;
+}
+.appname{
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 1000;
+}
+.appversion{
+  position: absolute;
+  top: 265px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: gray;
+  font-size: 14px;
+}
+.fatherbox{
+  position: absolute;
+  width: 90%;
+  height: 120px;
+  top: 325px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sonbox{
+  position: relative;
+  border-top:1px solid #ddd;
+  width: 100%;
+  height:46px ;
+}
+.sonbox>.content{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sonbox>.jiantou{
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+

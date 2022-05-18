@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/content/content",
+    "pages/aboutour/aboutour",
+    "pages/aboutour/developer/developer",
+    "pages/aboutour/feedback/feedback",
+    "pages/aboutour/process/process",
+    "pages/home/tip/tip"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#40E0D0",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "No Singles",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#40E0D0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home-active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/tabBar/profile.png",
+        "selectedIconPath": "static/tabBar/profile-active.png"
+      },
+      {
+        "pagePath": "pages/content/content",
+        "text": "留言",
+        "iconPath": "static/tabBar/about.png",
+        "selectedIconPath": "static/tabBar/about-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

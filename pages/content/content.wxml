@@ -1,0 +1,24 @@
+<view>
+  <view class="inputbox">
+    <textarea class="input" placeholder="给大家打个招呼咯" bindinput="inputtext" auto-focus="true" 	maxlength='-1' 	value='{{nowText}}'/>
+    <button bindtap="go">确认</button>
+  </view>
+
+
+  <view wx:for="{{textList}}" wx:key="textList">
+
+    <view class="childbox">
+      <view class="uuuu">
+        <view class="userImage"><image src="{{item.userImageUrl}}" style="width: 100%;height: 100%;"/></view> <!--头像-->
+        <view class="userName">{{item.userName}}</view><!--昵称-->
+        <view class="userTime">{{item.userTime}}</view><!--时间-->
+      </view>
+      <text class="content">{{item.text}}</text><!--内容-->
+    </view>
+
+    <view style="width: 100%;height: 5px;background-color: #eee;"></view>
+
+  </view>
+
+  <view style="width: 100%;height: 40px;"></view>
+</view>

@@ -1,0 +1,10 @@
+<view class="fatherbox">
+  <view><image src="{{imageUrl}}" style="height:100rpx;width:100rpx;"></image></view>
+  <view class="name">{{name}}</view>
+</view>
+<button bindtap="getUserName" class="{{index === '1' ? 'loginButton' : 'button'}}">登录</button>
+
+<view class="{{index === '0' ? 'finally' : 'button'}}">
+  <button bindtap="tip">用前须知</button>
+  <button bindtap="aboutour">关于我们</button>
+</view>

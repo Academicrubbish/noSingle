@@ -1,0 +1,13 @@
+view {
+  margin-bottom: 20px;
+  border-bottom:1px solid #eee;
+  font-size: 16px;
+}
+.top {
+  margin-top: 25px;
+  font-weight: 900; 
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-bottom:1px solid #eee;
+  font-size: 20px;
+}

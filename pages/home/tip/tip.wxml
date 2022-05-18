@@ -1,0 +1,37 @@
+<view><text>首先，先解释一下为什么图标是校广播台的图标</text></view>
+<view><text>因为，我是现在的播音部主任(19级的信科人)，我的初衷是给播音部的小部员使用的</text></view>
+<view><text>在这夸夸我的小部员，男生是声音好听人又帅，女生也是声音好听人又漂亮</text></view>
+<view><text>就是缺乏主动出击的勇气</text></view>
+<view><text>为了完成当时承诺他们的进部"包分配"，所以这个小程序就诞生了🐛🐛🐛</text></view>
+<view><text>好了好了，不多扯了，想看"开发历程"的，可以去"关于我们"里查看</text></view>
+
+<view style="font-weight: 900; font-size: 20px;margin-bottom: 10px;margin-top: 10px;">用前须知</view>
+<view style="font-weight: 700;"><text>首页界面</text></view>
+<view style="margin-bottom: 3px;"><text>首页的功能是，输入自己的微信号，选择自己的性别，就可以拿到异性的微信号</text></view>
+<view style="margin-bottom: 3px;"><text>每人每天只能获取一个微信号</text></view>
+<view style="margin-bottom: 3px;"><text>每人每天一次的目的是，避免加了好友，看个朋友圈，不好看就删掉，或者太好看不敢冲这种行为</text></view>
+<view style="margin-bottom: 3px;"><text>希望大家把心静下来，天天想着一见钟情，偶遇，太浮躁</text></view>
+<view style="margin-bottom: 3px;"><text>万事开头难，勇敢迈出第一步，聊起来就好了，聊起来之后想着约出来走走，约出来就好了</text></view>
+<view style="margin-bottom: 3px;"><text>慢慢的就成了，没什么难的🐛🐛🐛</text></view>
+<view style="margin-bottom: 7px;"></view>
+
+<view style="font-weight: 700;"><text>我的界面</text></view>
+<view style="margin-bottom: 3px;"><text>这个需要大家注意一下，小程序实现每人一天一次的功能是通过登陆判断的</text></view>
+<view style="margin-bottom: 3px;"><text>你登陆一次就算啥也没做，第二次登录也用不了首页</text></view>
+<view style="margin-bottom: 3px;"><text>抱歉😭😭😭，以后学到更好的判断机制一定给各位哥哥姐姐们改</text></view>
+<view style="margin-bottom: 3px;"><text>不过还可以使用留言功能噢😄😄😄</text></view>
+<view style="margin-bottom: 7px;"></view>
+
+<view style="font-weight: 700;"><text>留言界面</text></view>
+<view style="margin-bottom: 3px;"><text>这个就见名知意了，不过每次留言完了之后要下拉刷一下才会出来</text></view>
+<view style="margin-bottom: 3px;"><text>有人卡住了会多按几下，这样会发出去很多次，暂时没有撤回功能，下次更新时再添加😭😭😭</text></view>
+<view style="margin-bottom: 3px;"><text>遇到这种情况就去反馈里加我，我从后台给你们删吧</text></view>
+<view style="margin-bottom: 7px;"></view>
+
+<view style="font-weight: 700;"><text>最后</text></view>
+<view style="margin-bottom: 3px;"><text>这就是这个小程序最基本的功能了</text></view>
+<view style="margin-bottom: 3px;"><text>有什么不懂的，有什么想反馈的，有什么改进意见的都可以去反馈里找我噢</text></view>
+<view style="margin-bottom: 3px;"><text>作为一个免费的小程序如果有帮到你的话，就来反馈里打赏一下作者吧😭😭😭，太难了，审核花了小300，云服务每个月都要收钱，我还有个每天要吃30斤的女朋友，一块也行⚽️⚽️了</text></view>
+<view style="margin-bottom: 3px;"><text>最后，祝所有使用这个小程序的人，男生越来越帅找到貌比西施的女友，女生越来越好看男友都是彭于晏</text></view>
+
+<view style="height: 40px;"></view>

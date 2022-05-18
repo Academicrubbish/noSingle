@@ -1,0 +1,9 @@
+.image{
+  height:767rpx;
+  width:559rpx;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.noimage{
+  display: none;
+}

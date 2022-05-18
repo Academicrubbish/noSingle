@@ -1,0 +1,24 @@
+<view>
+  <view>
+  <image class="bg-image" mode="scaleToFill" src="../../static/pagesIndex/bj-image.jpg" style="opacity: 0.3;"></image>
+  </view>
+
+  <view class="top-image">
+    <image src="/static/pagesIndex/1.jpg"></image>
+  </view>
+
+  <view class="inputbox">
+    <input bindinput="inputwec" placeholder="请输入你的社交帐号"/>
+  </view>
+
+  <view bindtap="btnclick">
+    <button class="{{index==='0' ? 'man' : 'noMan'}}" id="男">男</button>
+    <button class="{{index==='1' ? 'woman' : 'noWoman'}}" id="女">女</button>
+  </view>
+
+  <button bindtap="gayclick" class="gay">同?</button>
+
+  <button bindtap="postwec" class="submit">确定</button>
+
+  <text selectable="{{true}}" user-select="{{true}}" class="outwec">{{outWec}}</text>
+</view>

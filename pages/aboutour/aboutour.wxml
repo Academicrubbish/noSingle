@@ -1,0 +1,20 @@
+<view>
+  <image src="../../static/pagesIndex/1.jpg" class="apploge"/>
+  <text class="appname">No Singles</text>
+  <text class="appversion">Version {{version}}</text>
+</view>
+
+<view class="fatherbox">
+  <view class="sonbox" bindtap="process">
+    <view class="content">开发历程</view>
+    <view class="jiantou">></view>
+</view>
+  <view class="sonbox" bindtap="developer">
+    <view class="content">开发人员</view>
+    <view class="jiantou">></view>
+</view>
+  <view class="sonbox" bindtap="feedback">
+    <view class="content">反馈</view>
+    <view class="jiantou">></view>
+  </view>
+</view>

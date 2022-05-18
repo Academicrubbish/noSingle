@@ -1,0 +1,4 @@
+<view style="position:flex; margin-top: 10px;"><text>感谢你的反馈，加我qq，会根据你提供的反馈进行更改</text></view>
+<view style="position:flex; text-align: center;"><text>QQ：1226377893</text></view>
+<button bindtap="giveTip">打赏作者</button>
+<image src="../../../static/shoukuan.jpg" class="{{index==='1' ? 'image' : 'noimage'}}" />
