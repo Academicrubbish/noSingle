@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/open/open",
+			"style": {}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/talk/talk",
+			"style": {}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {}
+		}
+	],
+	"subPackages": [{
+		"root": "pages_other",
+		"pages": [{
+				"path": "register/register",
+				"style": {
+					"navigationBarTitleText": "注册"
+				}
+			},
+			{
+				"path": "userData/userData",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "changelog/changelog",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "process/process",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "developer/developer",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "editing/editing",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#8799a3",
+		"selectedColor": "#8799a3",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/talk/talk",
+				"text": "村口",
+				"iconPath": "static/tabBar/discover.png",
+				"selectedIconPath": "static/tabBar/discover-active.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "冲",
+				"iconPath": "static/tabBar/friendadd.png",
+				"selectedIconPath": "static/tabBar/friendadd-active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home-active.png"
+			}
+		]
+	}
+}
